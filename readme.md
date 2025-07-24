@@ -51,3 +51,30 @@ Le code est dans src/main.rs et utilise :
         demander_nom_utilisateur() : demande le nom d’un utilisateur
 
         afficher_solde, retrait : méthodes sur la struct Compte
+
+
+# TP3 - Gestion de fichiers en Rust 🦀
+
+Ce projet est une application en ligne de commande écrite en **Rust**, permettant de :
+
+- Créer un fichier texte
+- Lire le contenu du fichier
+- Écrire du texte dans le fichier
+- Supprimer le fichier
+- Afficher la date actuelle (UTC) avec [`chrono`]
+
+## 🧱 Fonctionnalités
+
+- ✅ Gestion de fichiers avec `std::fs`
+- ✅ Support UTF-8 (écriture et lecture des accents)
+- ✅ Affichage de la date/heure en UTC
+- ✅ Menu interactif en boucle (`loop` + `match`)
+- ✅ Utilisation d’une structure `Fichier` avec `impl`
+
+## 🚀 Utilisation
+
+### 1. Cloner ou télécharger le projet
+
+```bash
+git clone <url-du-projet>
+cd TP3
